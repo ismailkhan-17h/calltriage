@@ -1,0 +1,13 @@
+call,condition,WER_vs_clean,flags_found,flag_recall,risk
+false_promise,clean,0.0,false_promise,1.0,20
+false_promise,snr10,0.09,-,0.0,0
+false_promise,snr20,0.09,-,0.0,0
+false_promise,snr5,0.06,-,0.0,0
+normal,clean,0.0,-,1.0,0
+normal,snr10,0.18,-,1.0,0
+normal,snr20,0.06,-,1.0,0
+normal,snr5,0.24,-,1.0,0
+threat,clean,0.0,"family_disclosure, pressure, threat",1.0,80
+threat,snr10,0.12,"family_disclosure, pressure, threat",1.0,80
+threat,snr20,0.05,"family_disclosure, pressure, threat",1.0,80
+threat,snr5,0.19,"family_disclosure, pressure, threat",1.0,80

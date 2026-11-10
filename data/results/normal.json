@@ -1,0 +1,34 @@
+{
+  "call": "normal",
+  "risk_score": 0,
+  "sentiment": "neutral",
+  "summary": "The agent promises to collect the debt until February, but does not commit to any specific action or guarantee.",
+  "promises": [
+    {
+      "speaker": "agent",
+      "commitment": "short",
+      "seg": 1
+    }
+  ],
+  "violations": [],
+  "segments": [
+    {
+      "start_s": 1.1,
+      "end_s": 7.2,
+      "text": "मैं राहुल बोल रहा हूँ ए बी सी फाइनेंस से क्या मेरी बात सुरेश जी से हो रही है",
+      "audio": "data/segments\\normal_000.wav"
+    },
+    {
+      "start_s": 9.2,
+      "end_s": 18.2,
+      "text": "सर आपकी ई एम आई 2 हफ्ते से पेंडिंग है कब तक पेमेंट हो जाएगी हाँ सर मैं फ्राइडे तक कर कर दूंगा हाँ",
+      "audio": "data/segments\\normal_001.wav"
+    },
+    {
+      "start_s": 20.0,
+      "end_s": 23.9,
+      "text": "ठीक है सर फ्राइडे तक कन्फर्म कर दीजिए",
+      "audio": "data/segments\\normal_002.wav"
+    }
+  ]
+}

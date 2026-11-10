@@ -1,0 +1,56 @@
+{
+  "call": "threat",
+  "risk_score": 80,
+  "sentiment": "negative",
+  "summary": "The agent is threatening to reveal the borrower's address if they do not comply, indicating a negative interaction.",
+  "promises": [],
+  "violations": [
+    {
+      "type": "family_disclosure",
+      "seg": 1,
+      "quote": "थोड़ा टाइम लगेगा टाइम नहीं मिलेगा नहीं दिया तो मैं तुम्हारे घर आके तुम्हारे घर वालों को बता दूंगा",
+      "reason": "lexicon match: 'घर वालों को बता'",
+      "source": "rule",
+      "start_s": 11.0,
+      "audio": "data/segments\\threat_001.wav"
+    },
+    {
+      "type": "pressure",
+      "seg": 1,
+      "quote": "आपके घर को बताया जाएगा अगर आप इसे नहीं करें।",
+      "reason": "short",
+      "source": "llm",
+      "start_s": 11.0,
+      "audio": "data/segments\\threat_001.wav"
+    },
+    {
+      "type": "threat",
+      "seg": 2,
+      "quote": "प्लीज ऐसा मत करिए फिर पैसे 2 वरना देख लेना",
+      "reason": "lexicon match: 'देख लेना'",
+      "source": "rule",
+      "start_s": 21.2,
+      "audio": "data/segments\\threat_002.wav"
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 1.3,
+      "end_s": 8.9,
+      "text": "सुरेश तुम्हारी अभी अभी तक इ एम आई नहीं आयी आज ही पे करो",
+      "audio": "data/segments\\threat_000.wav"
+    },
+    {
+      "start_s": 11.0,
+      "end_s": 19.6,
+      "text": "थोड़ा टाइम लगेगा टाइम नहीं मिलेगा नहीं दिया तो मैं तुम्हारे घर आके तुम्हारे घर वालों को बता दूंगा",
+      "audio": "data/segments\\threat_001.wav"
+    },
+    {
+      "start_s": 21.2,
+      "end_s": 29.8,
+      "text": "प्लीज ऐसा मत करिए फिर पैसे 2 वरना देख लेना",
+      "audio": "data/segments\\threat_002.wav"
+    }
+  ]
+}

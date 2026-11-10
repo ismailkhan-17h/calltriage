@@ -1,0 +1,38 @@
+{
+  "call": "false_promise",
+  "risk_score": 20,
+  "sentiment": "neutral",
+  "summary": "The agent makes a false promise about waiving interest, while the borrower confirms there are no issues.",
+  "promises": [
+    {
+      "speaker": "borrower",
+      "commitment": "short",
+      "seg": 1
+    }
+  ],
+  "violations": [
+    {
+      "type": "false_promise",
+      "seg": 0,
+      "quote": "सर अगर आज आज पे कर दो तो सारा इंट्रेस्ट माफ़ माफ़ हो जाएगा हम गारंटी देते हैं",
+      "reason": "lexicon match: 'इंटरेस्ट माफ'",
+      "source": "rule+llm",
+      "start_s": 4.2,
+      "audio": "data/segments\\false_promise_000.wav"
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 4.2,
+      "end_s": 13.3,
+      "text": "सर अगर आज आज पे कर दो तो सारा इंट्रेस्ट माफ़ माफ़ हो जाएगा हम गारंटी देते हैं",
+      "audio": "data/segments\\false_promise_000.wav"
+    },
+    {
+      "start_s": 15.1,
+      "end_s": 21.8,
+      "text": "ठीक है मैं कल सुबह तक 5,000 भेज दूंगा हाँ हाँ कोई कोई प्रॉब्लम नहीं है हाँ",
+      "audio": "data/segments\\false_promise_001.wav"
+    }
+  ]
+}

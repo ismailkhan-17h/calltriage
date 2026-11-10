@@ -1,0 +1,22 @@
+{
+  "call": "test-v1",
+  "risk_score": 0,
+  "sentiment": "neutral",
+  "summary": "The conversation does not contain any promises, threats, false promises, or family disclosures. The content appears to be a mix of greetings and casual conversation without negative sentiment indicators.",
+  "promises": [],
+  "violations": [],
+  "segments": [
+    {
+      "start_s": 0.0,
+      "end_s": 10.0,
+      "text": "ಯಾರು ಬರೋ ಹೋಗಪ್ಪ ನೀನು ಅಷ್ಟಪ್ಪ ಮಾತಾ ನೀನು ಇಂಪಾರ್ಟೆಂಟ್ ನೀನು ಆಟಾಸ್ತಪ್ಪ ಇಂಪಾರ್ಟೆಂಟ್ ನೀನು ಹಾಕಾಸ್ತ ಆ ಹುಡುಗಿ ಇಂಪಾರ್ಟೆಂಟ್ ನೀವು ನೋಡ್ಬಿಡ ಆಯಿತಾ ಆ ಹುಡುಗಿ ಕೈಬಿಡೋ ನೀನಂತ",
+      "audio": "data/segments\\test-v1_000.wav"
+    },
+    {
+      "start_s": 10.0,
+      "end_s": 20.0,
+      "text": "ಅವ್ರಿಗೆ ಅದು ಆಯಿತು ನೀವು ಬಿಟ್ಬಿಡು ಬೇಬಿಡು ಅವ್ಳಿಗೆ",
+      "audio": "data/segments\\test-v1_001.wav"
+    }
+  ]
+}

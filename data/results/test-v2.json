@@ -1,0 +1,56 @@
+{
+  "call": "test-v2",
+  "risk_score": 30,
+  "sentiment": "negative",
+  "summary": "The agent threatens the caller with arrest and fraud, while attempting to reassure them about a digital scan.",
+  "promises": [],
+  "violations": [
+    {
+      "type": "false_promise",
+      "seg": 2,
+      "quote": "don't panic this is nothing but a scan",
+      "reason": "short",
+      "source": "llm",
+      "start_s": 15.0,
+      "audio": "data/segments\\test-v2_002.wav"
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 0.6,
+      "end_s": 10.6,
+      "text": "your fines are overdue i have sent you a link if you don't pay now or disconnect",
+      "audio": "data/segments\\test-v2_000.wav"
+    },
+    {
+      "start_s": 10.6,
+      "end_s": 13.4,
+      "text": "this call you will be arrested",
+      "audio": "data/segments\\test-v2_001.wav"
+    },
+    {
+      "start_s": 15.0,
+      "end_s": 21.9,
+      "text": "don't panic this is nothing but a scan",
+      "audio": "data/segments\\test-v2_002.wav"
+    },
+    {
+      "start_s": 22.7,
+      "end_s": 29.4,
+      "text": "stay calm hang up and don't fall for such digital arrest frauds",
+      "audio": "data/segments\\test-v2_003.wav"
+    },
+    {
+      "start_s": 30.0,
+      "end_s": 34.9,
+      "text": "your go to buddy for safe banking your trust your security",
+      "audio": "data/segments\\test-v2_004.wav"
+    },
+    {
+      "start_s": 35.3,
+      "end_s": 41.5,
+      "text": "our priority",
+      "audio": "data/segments\\test-v2_005.wav"
+    }
+  ]
+}
